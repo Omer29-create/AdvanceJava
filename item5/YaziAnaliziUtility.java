@@ -9,4 +9,8 @@ public class YaziAnaliziUtility {
     public static boolean isValid() {
         return true;
     }
+
+    public static  String upuzunBirMethodYaziyorumSuAnAklimaGelenKelimelerle() {
+        return "Selam";
+    }
 }
