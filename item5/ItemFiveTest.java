@@ -9,14 +9,27 @@ public class ItemFiveTest {
         // YaziAnaliziSingleton.INSTANCE.isValid();  Singleton metodu da esnek degil, o yüzden kullanissiz
 
         // Bu cok esnek oldu. Dili degistirebiliriz
-        YaziAnaliziDependencyInjection asd = new YaziAnaliziDependencyInjection(new Sözlük("Türkce"));
+        Supplier<Sözlük> türkce = () -> new Sözlük("Türkce");
+        YaziAnaliziDependencyInjection asd = new YaziAnaliziDependencyInjection(türkce);
         asd.isValid();
 
         // Lambda Functions
         Supplier<String> fs = () -> "Furkan";
-        fs.get();  // Furkan
+        System.out.println(fs.get());  // Furkan
 
-        Supplier<Sözlük> türkce = () -> new Sözlük("Türkce");
+        Supplier<String> dahaKisa = () -> YaziAnaliziUtility.upuzunBirMethodYaziyorumSuAnAklimaGelenKelimelerle();
+
+        YaziAnaliziUtility.upuzunBirMethodYaziyorumSuAnAklimaGelenKelimelerle();
+
+        dahaKisa.get();
+
+
+        double randomSayi = Math.random();
+        System.out.println(randomSayi);
+        System.out.println(randomSayi);
+
+        Supplier<Double> randomValue = () -> Math.random();
+        System.out.println(randomValue.get());
 
     }
 }
