@@ -24,7 +24,9 @@ public class ItemSixTest {
         System.out.println(kelime2 == kelime3);
 
         long start = System.nanoTime();
+        
         topla();
+        
         long end = System.nanoTime();
         long totalTime = end - start;
         System.out.println(totalTime);  // Long'la yapinca 29000, long'la yapinca 3600 nanosaniye output oldu
