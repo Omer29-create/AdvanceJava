@@ -30,8 +30,6 @@ public class Starbucks {
         this.yumusatici = yumusatici;
     }
 
-     */
-    /*
     // Telescope Pattern
     public Starbucks(String kahveBoyutu) {
         this.kahveBoyutu = kahveBoyutu;
