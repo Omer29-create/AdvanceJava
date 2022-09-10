@@ -9,7 +9,5 @@ public class ItemTwoTest {
         */
 
         StarbucksBuilder sb = new StarbucksBuilder.Builder("tall").yumusakIcenler("ben yumusak istiyorum").build();
-
     }
-
 }
