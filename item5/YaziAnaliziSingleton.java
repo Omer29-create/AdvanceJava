@@ -10,6 +10,4 @@ public class YaziAnaliziSingleton {
     public static boolean isValid() {
         return true;
     }
-
-
 }
