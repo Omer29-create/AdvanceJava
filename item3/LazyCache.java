@@ -4,7 +4,6 @@ import java.util.HashMap;
 
 public class LazyCache implements Cache {
 
-
     // Sadece cagrildiginda olusturuyor
     private static LazyCache instance;
     private HashMap<Object, Object> map;
