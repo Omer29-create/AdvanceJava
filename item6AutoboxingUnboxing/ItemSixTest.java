@@ -6,9 +6,6 @@ package com.effectivejava.tutorial.effectivejava.item6AutoboxingUnboxing;
 
 
 
-
-
-
 import java.util.ArrayList;
 import java.util.List;
 
