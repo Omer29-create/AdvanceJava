@@ -1,7 +1,5 @@
 package com.effectivejava.tutorial.effectivejava.item5;
 
-
-
 public class Sözlük {
     private String dil;
 
